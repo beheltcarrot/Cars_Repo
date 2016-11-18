@@ -13,8 +13,7 @@ namespace Cars
         {
             Context context = new Context();
 
-            List<Manufactures> manufactures = context.Manuf.Where(m => m.Name.StartsWith("A")).ToList();
-
+            List<Manufactures> manufactures = context.Manuf.Where(m => m.Name.StartsWith("J")).ToList();
         }
     }
 }
