@@ -12,5 +12,8 @@ namespace Cars.Data
         public DbSet<Manufactures> Manuf { get; set; }
         public DbSet<Model> Mode { get; set; }
         public DbSet<Car> Cara { get; set; }
+        public Context() : base("localsql")
+        {
+        }
     }
 }
