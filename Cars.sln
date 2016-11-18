@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Cars\Cars.csproj", "{42272659-1157-40D8-BFFB-744B1B114771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.Data", "Cars.Data\Cars.Data.csproj", "{5B1910AE-6C8B-4D88-A585-6CAC7BD5BB9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42272659-1157-40D8-BFFB-744B1B114771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42272659-1157-40D8-BFFB-744B1B114771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42272659-1157-40D8-BFFB-744B1B114771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42272659-1157-40D8-BFFB-744B1B114771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1910AE-6C8B-4D88-A585-6CAC7BD5BB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1910AE-6C8B-4D88-A585-6CAC7BD5BB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1910AE-6C8B-4D88-A585-6CAC7BD5BB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1910AE-6C8B-4D88-A585-6CAC7BD5BB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
