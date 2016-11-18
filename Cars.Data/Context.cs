@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cars.Data
 {
-    class Context:DbContext
+    public class Context:DbContext
     {
         public DbSet<Manufactures> Manuf { get; set; }
         public DbSet<Model> Mode { get; set; }

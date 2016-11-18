@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cars.Data
 {
-    class Model
+    public class Model
     {
         public int ID { get; set; }
         public string Name { get; set; }
